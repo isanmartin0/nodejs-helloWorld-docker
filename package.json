@@ -4,9 +4,8 @@
   "description": "Hello World on Node js",
   "main": "server/app.js",
   "scripts": {
-    "start": "node server/api.js",
-    "test": "jest",
-    "script_prueba": "node server/app.js"
+    "start": "node server/app.js",
+    "test": "jest"
   },
   "jest": {
     "testResultsProcessor": "jest-sonar-reporter",
